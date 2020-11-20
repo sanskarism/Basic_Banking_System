@@ -1,0 +1,96 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color:#d886e9;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(219, 57, 198);
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #b838d1;
+    color: white;
+  }
+  /* Bank image */
+  .Bankimg{
+      float: left;
+      max-width: 40%;;
+      margin-left: 25px;
+      margin-top: 25px ;
+      border-radius: 35px;
+
+}
+*{
+    background-color: rgb(236, 178, 234);
+    z-index: -1;
+}
+.buttons{
+    float: right;
+    margin-top: 12%;
+    margin-right: 22%;
+}
+.button1{
+    color:#f2f4f7;
+            border: 2px solid #94229e;
+            border-radius: 8px;
+			box-sizing: border-box;
+   			width: 500px;
+    		margin-left: auto;
+    		margin-right: auto;
+			padding: 15px 15px 15px 15px;
+			margin-bottom: 20px;
+			font-weight: bold;
+			border-width: medium;
+}
+.button2{
+    color:#f2f4f7;
+            border: 2px solid #94229e;
+            border-radius: 8px;
+			box-sizing: border-box;
+   			width: 500px;
+    		margin-left: auto;
+    		margin-right: auto;
+			padding: 15px 15px 15px 15px;
+			margin-bottom: 20px;
+			font-weight: bold;
+			border-width: medium;
+}
+table { 
+  margin-right: auto;
+  margin-top: 2%;
+  margin-left: auto;
+border-collapse: collapse;
+width: 55%;
+color: #670570;
+font-family: monospace;
+text-align: center;
+cursor: pointer;
+border: rgb(112, 5, 109) 2px solid;
+border-radius: 5px;
+
+}
+
+b{
+  margin-top: 5%;
+  color: purple;
+  font-size: xx-large;
+
+}
+th{
+  background-color: rgb(170, 12, 170); 
+  color: white;
+}

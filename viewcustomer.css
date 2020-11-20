@@ -1,0 +1,115 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color:#d886e9;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(219, 57, 198);
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #b838d1;
+    color: white;
+  }
+  /* Bank image */
+  .Bankimg{
+      float: left;
+      max-width: 40%;;
+      margin-left: 25px;
+      margin-top: 25px ;
+      border-radius: 35px;
+
+}
+*{
+    background-color: rgb(236, 178, 234);
+    z-index: -1;
+}
+.buttons{
+    float: right;
+    margin-top: 12%;
+    margin-right: 22%;
+}
+.button1{
+    color:#f2f4f7;
+            border: 2px solid #94229e;
+            border-radius: 8px;
+			box-sizing: border-box;
+   			width: 500px;
+    		margin-left: auto;
+    		margin-right: auto;
+			padding: 15px 15px 15px 15px;
+			margin-bottom: 20px;
+			font-weight: bold;
+			border-width: medium;
+}
+.button2{
+    color:#f2f4f7;
+            border: 2px solid #94229e;
+            border-radius: 8px;
+			box-sizing: border-box;
+   			width: 500px;
+    		margin-left: auto;
+    		margin-right: auto;
+			padding: 15px 15px 15px 15px;
+			margin-bottom: 20px;
+			font-weight: bold;
+			border-width: medium;
+}
+table{
+
+  margin-right:auto;
+  margin-left: auto;
+  margin-top: 60px;
+
+  
+}
+form{
+
+  position: absolute;
+   /* bottom: 40px; */
+  left: 39%;
+  margin:auto;
+
+}
+.container {
+  border-radius: 5px;
+  background-color: rgb(245, 168, 245) ;
+  padding: 20px;
+}
+input[type=submit] {
+  background-color: #d442bc;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #da8de4;
+}
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
